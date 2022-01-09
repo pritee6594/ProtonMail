@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\Pritee\.jenkins\ProtonMail\Extent Reports\Passed Screenshots\submitForm0.png'><img src ='C:\Users\Pritee\.jenkins\ProtonMail\Extent Reports\Passed Screenshots\submitForm0.png' width='200' height='200'></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-01-09T13:45:51Z" name="Automated Suite" finished-at="2022-01-09T13:47:26Z" duration-ms="95127">
+    <groups>
+    </groups>
+    <test started-at="2022-01-09T13:45:51Z" name="Proton Test Run" finished-at="2022-01-09T13:47:26Z" duration-ms="95127">
+      <class name="tests.ProtonTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:tests.ProtonTest@d9345cd]" started-at="2022-01-09T13:45:51Z" name="startUp" finished-at="2022-01-09T13:46:07Z" duration-ms="15496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="submitForm(int)[pri:0, instance:tests.ProtonTest@d9345cd]" started-at="2022-01-09T13:46:13Z" name="submitForm" data-provider="records" finished-at="2022-01-09T13:47:24Z" duration-ms="70663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\Pritee\.jenkins\ProtonMail\Extent Reports\Passed Screenshots\submitForm0.png'><img src ='C:\Users\Pritee\.jenkins\ProtonMail\Extent Reports\Passed Screenshots\submitForm0.png' width='200' height='200'></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProtonTest@d9345cd]" started-at="2022-01-09T13:47:25Z" name="tearDown" finished-at="2022-01-09T13:47:26Z" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProtonTest -->
+    </test> <!-- Proton Test Run -->
+  </suite> <!-- Automated Suite -->
+</testng-results>

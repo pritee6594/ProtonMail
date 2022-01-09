@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automated Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listner.ReportListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Proton Test Run(failed)">
+    <classes>
+      <class name="tests.ProtonTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="submitForm" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProtonTest -->
+    </classes>
+  </test> <!-- Proton Test Run(failed) -->
+</suite> <!-- Failed suite [Automated Suite] -->
